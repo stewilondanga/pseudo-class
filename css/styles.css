@@ -133,13 +133,12 @@ h2:after {
   background: #ff0;
 }
 
-/*#parent1 .childElement:first-child{
+#parent1 .childElement:first-child {
   background: chartreuse;
   height: 60px;
-
 }
 
-#parent1 .childElement:last-child{
+/*#parent1 .childElement:last-child{
   background: grey;
   margin-left: 60px;
   width: 80px;
