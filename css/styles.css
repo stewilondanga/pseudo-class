@@ -125,7 +125,7 @@ h2:after {
   width: 90%;
 }
 
-/*.childElement{
+.childElement {
   display: inline-block;
   position: relative;
   width: 40px;
@@ -133,7 +133,7 @@ h2:after {
   background: #ff0;
 }
 
-#parent1 .childElement:first-child{
+/*#parent1 .childElement:first-child{
   background: chartreuse;
   height: 60px;
 
