@@ -76,12 +76,12 @@ h3 {
   background-color: gold;
 }
 
-/*a.anchor1:visited{
+a.anchor1:visited {
   color: #fff;
   background-color: blue;
 }
 
-a.anchor1:visited .visited{
+/*a.anchor1:visited .visited{
   display: inline;
 }
 
