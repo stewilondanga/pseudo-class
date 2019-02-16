@@ -163,13 +163,13 @@ h2:after {
   width: 60px;
 }
 
-/*#parent3 .childElement:nth-child(even){
+#parent3 .childElement:nth-child(even) {
   background: darkcyan;
   width: 60px;
   height: 80px;
 }
 
-#parent4 .childElement:nth-child(3n){
+/*#parent4 .childElement:nth-child(3n){
   background: mediumspringgreen;
   height: 60px;
   width: 55px;
