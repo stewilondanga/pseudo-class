@@ -67,11 +67,11 @@ h3 {
   display: none;
 }
 
-/*.anchor1{
+.anchor1 {
   margin-left: 10%;
 }
 
-a:link{
+/*a:link{
   color: #333;
   background-color: gold;
 }
