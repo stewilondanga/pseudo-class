@@ -103,14 +103,13 @@ h3 {
 }
 
 /* Before/After Pseudo-classses */
-/*
-h2:before{
- content:'This is a :before pseudo-class.';
+h2:before {
+  content: 'This is a :before pseudo-class.';
   color: purple;
-  float:left;
+  float: left;
 }
 
-h2:after{
+/*h2:after{
  content:'This is an :after pseudo-class.';
     color: crimson;
     float: right;
