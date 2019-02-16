@@ -94,7 +94,7 @@ h3 {
   display: inline;
 }
 
-a:active {
+.container a:active {
   background: green;
 }
 
