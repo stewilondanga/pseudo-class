@@ -169,7 +169,7 @@ h2:after {
   height: 80px;
 }
 
-/*#parent4 .childElement:nth-child(3n){
+#parent4 .childElement:nth-child(3n) {
   background: mediumspringgreen;
   height: 60px;
   width: 55px;
@@ -177,7 +177,7 @@ h2:after {
   border: 5px solid #333;
 }
 
-#parent5 .childElement:nth-child(3n+1){
+/*#parent5 .childElement:nth-child(3n+1){
   background: firebrick;
   width: 80px;
   border-radius: 14px;
