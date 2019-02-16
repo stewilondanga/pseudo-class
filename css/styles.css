@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,180 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+*{
+  font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+h1, h2, p{
+  text-align: center;
+}
+
+h3{
+  margin-top: 25px;
+}
+
+.container{
+  position: relative;
+  width:70%;
+  margin: 30px auto;
+  padding-bottom: 20px;
+  border-bottom: 2px dashed;
+}
+
+.slateblue{
+  background-color: slateblue;
+  padding: 0 5px;
+}
+
+.cyan{
+  background-color: cyan;
+  padding: 0 5px;
+}
+
+.grey{
+  background-color: grey;
+  padding: 0 5px;
+}
+
+.chartreuse{
+  background-color: chartreuse;
+  padding: 0 5px;
+}
+
+/* link/visited/hover/active Pseudo-classses */
+/*
+a{
+  padding: 15px;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    margin: 0 auto;
+  float:none;
+}
+
+.hover, .active, .visited, .link{
+  display: none;
+}
+
+.anchor1{
+  margin-left: 10%;
+}
+
+a:link{
+  color: #333;
+  background-color: gold;
+}
+
+a.anchor1:visited{
+  color: #fff;
+  background-color: blue;
+}
+
+a.anchor1:visited .visited{
+  display: inline;
+}
+
+a:hover{
+  color: #fff;
+  background-color: #FF0000;
+}
+
+a:hover .hover{
+  display: inline;
+}
+
+a:active{
+  background: green;
+}
+
+a:active .active{
+  display: inline;
+}
+
+/* Before/After Pseudo-classses */
+/*
+h2:before{
+ content:'This is a :before pseudo-class.';
+  color: purple;
+  float:left;
+}
+
+h2:after{
+ content:'This is an :after pseudo-class.';
+    color: crimson;
+    float: right;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+/* Child Pseudo-classses */
+/*
+.parentContainer{
+  position: relative;
+  margin: 10px auto;
+  width:90%;
+}
+
+.childElement{
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #ff0;
+}
+
+#parent1 .childElement:first-child{
+  background: chartreuse;
+  height: 60px;
+
+}
+
+#parent1 .childElement:last-child{
+  background: grey;
+  margin-left: 60px;
+  width: 80px;
+  height: 80px;
+}
+
+#parent1 .childElement:nth-child(3){
+  background: cyan;
+  width: 60px;
+}
+
+#parent1 .childElement:nth-last-child(4){
+  background: slateblue;
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+}
+
+#parent2 .childElement:nth-child(odd){
+  background: cyan;
+  border: 2px dashed #333;
+  width: 60px;
+}
+
+#parent3 .childElement:nth-child(even){
+  background: darkcyan;
+  width: 60px;
+  height: 80px;
+}
+
+#parent4 .childElement:nth-child(3n){
+  background: mediumspringgreen;
+  height: 60px;
+  width: 55px;
+  border-radius: 8px;
+  border: 5px solid #333;
+}
+
+#parent5 .childElement:nth-child(3n+1){
+  background: firebrick;
+  width: 80px;
+  border-radius: 14px;
 }
 
 .containers {
