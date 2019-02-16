@@ -157,13 +157,13 @@ h2:after {
   border-radius: 8px;
 }
 
-/*#parent2 .childElement:nth-child(odd){
+#parent2 .childElement:nth-child(odd) {
   background: cyan;
   border: 2px dashed #333;
   width: 60px;
 }
 
-#parent3 .childElement:nth-child(even){
+/*#parent3 .childElement:nth-child(even){
   background: darkcyan;
   width: 60px;
   height: 80px;
