@@ -76,7 +76,7 @@ h3 {
   background-color: gold;
 }
 
-a.anchor1:visited {
+.container a.anchor1:visited {
   color: #fff;
   background-color: blue;
 }
