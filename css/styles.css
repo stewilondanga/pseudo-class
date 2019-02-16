@@ -90,7 +90,7 @@ h3 {
   background-color: #FF0000;
 }
 
-a:hover .hover {
+.container a:hover .hover {
   display: inline;
 }
 
