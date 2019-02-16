@@ -145,12 +145,12 @@ h2:after {
   height: 80px;
 }
 
-/*#parent1 .childElement:nth-child(3){
+#parent1 .childElement:nth-child(3) {
   background: cyan;
   width: 60px;
 }
 
-#parent1 .childElement:nth-last-child(4){
+/*#parent1 .childElement:nth-last-child(4){
   background: slateblue;
   width: 60px;
   height: 60px;
