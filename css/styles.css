@@ -21,11 +21,11 @@ h1, h2, p {
   text-align: center;
 }
 
-/*h3{
+h3 {
   margin-top: 25px;
 }
 
-.container{
+/*.container{
   position: relative;
   width:70%;
   margin: 30px auto;
