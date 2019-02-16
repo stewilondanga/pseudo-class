@@ -119,14 +119,13 @@ h2:after {
 }
 
 /* Child Pseudo-classses */
-/*
-.parentContainer{
+.parentContainer {
   position: relative;
   margin: 10px auto;
-  width:90%;
+  width: 90%;
 }
 
-.childElement{
+/*.childElement{
   display: inline-block;
   position: relative;
   width: 40px;
