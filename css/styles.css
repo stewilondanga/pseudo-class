@@ -109,13 +109,13 @@ h2:before {
   float: left;
 }
 
-/*h2:after{
- content:'This is an :after pseudo-class.';
-    color: crimson;
-    float: right;
-    width: 100%;
-    text-align: right;
-    margin-bottom: 15px;
+h2:after {
+  content: 'This is an :after pseudo-class.';
+  color: crimson;
+  float: right;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 15px;
 }
 
 /* Child Pseudo-classses */
