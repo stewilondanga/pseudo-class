@@ -25,15 +25,15 @@ h3 {
   margin-top: 25px;
 }
 
-/*.container{
+.container {
   position: relative;
-  width:70%;
+  width: 70%;
   margin: 30px auto;
   padding-bottom: 20px;
   border-bottom: 2px dashed;
 }
 
-.slateblue{
+/*.slateblue{
   background-color: slateblue;
   padding: 0 5px;
 }
