@@ -21,6 +21,187 @@
         </a>
     </div>
 
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <div class="container">
+    <h1>What are pseudo-classes?</h1>
+
+    <p>Pseudo-classes are special states that elements can be in. The style of these elements can be changed via CSS when one of those pseudo-classes are active.</p>
+    </div>
+
+    <div class="container" id="anchor1">
+    <a class="anchor1" target="_blank" href="#anchor1">:link/:visited Anchor Element
+      <span class="link"> on :link</span>
+      <span class="visited"> on :visited</span>
+    </a>
+
+    <a href="#anchor1">Anchor Element
+      <span class="hover"> on :hover</span>
+      <span class="active"> and on :active</span>
+      <span class="link"> on :link</span>
+      <span class="visited"> on :visited</span>
+    </a>
+
+      <p>Above is an example of the pseudo-classes <b>active</b>, <b>link</b>, <b>hover</b> and <b>visited</b>. Test them out yourself! The functions of these pseudo-classes are self explanatory by their names but the breakdown is written below:
+        </p>
+      <ul>
+        <li><b>active</b>: is the state present when the element is being clicked or touched on a touch screen device</li>
+        <li><b>link</b>: is the default state of the element before being visited</li>
+        <li><b>hover</b>: is the state when the cursor is moused-over the element</li>
+        <li><b>visited</b>: is the state the element is in after it has been visited on your browser</li>
+      </ul>
+      <p>
+      These pseudo-classes can be applied to many different elements and are not limited to links and buttons. These classes in particular are great for making websites more interactive and let particular elements standout from the rest using CSS only!
+      </p>
+    </div>
+
+    <div class="container">
+    <h2>
+      <br>This is the regular h2 element.<br>
+    </h2>
+
+    <p>Above are the <b>:before</b> and <b>:after</b> pseudo-classes. These are attach additional content (along with their own style) to already existing elements. As the class names imply, they allow content to appear before and/or after the target element. These pseudo-classes are particularly useful by applying them to whole elements/classes/ids, reducing the need for repetition on html.</p>
+    </div>
+
+    <div class="container">
+
+      <div class="parentContainer" id="parent1">
+        <div class="childElement">1
+      </div>
+        <div class="childElement">2
+      </div>
+        <div class="childElement">3
+      </div>
+        <div class="childElement">4
+      </div>
+        <div class="childElement">5
+      </div>
+        <div class="childElement">6
+      </div>
+        <div class="childElement">7
+      </div>
+        <div class="childElement">8
+      </div>
+        <div class="childElement">9
+      </div>
+        <div class="childElement">10
+      </div>
+      </div>
+
+
+    <p>Above are the child pseudo-classes; <b class="chartreuse">:first-child</b>, <b class="grey">:last-child</b>, <b class="cyan">:nth-child()</b> and <b class="slateblue">:nth-last-child()</b>. Child classes can be used to style a particular element or elements in a parent via order they are positioned.</p> <p>As the names suggest <b>first-child</b> and <b>last-child</b> select the first and last element respectively. The <b>nth-child()</b> and <b>nth-last-child()</b> pseudo-classes work similarly as the previous ones except with the addition of defining the number when the element appears. The above example uses <b class="cyan">:nth-child(3)</b> to style the 3rd element and <b class="slateblue">:nth-last-child(4)</b> to style the 4th element from the end.</p>
+      <p>
+        <b>nth-child</b> pseudo-classes have even more functionality by the possibility of applying a formula of selection or selecting odd/even occuring elements. Below are some examples of <b>nth-child</b> styling:
+      </p>
+
+      <h3>nth-child(odd):</h3>
+
+      <div class="parentContainer" id="parent2">
+        <div class="childElement">1 Odd
+      </div>
+        <div class="childElement">2
+      </div>
+        <div class="childElement">3 Odd
+      </div>
+        <div class="childElement">4
+      </div>
+        <div class="childElement">5 Odd
+      </div>
+        <div class="childElement">6
+      </div>
+        <div class="childElement">7 Odd
+      </div>
+        <div class="childElement">8
+      </div>
+        <div class="childElement">9 Odd
+      </div>
+        <div class="childElement">10
+      </div>
+      </div>
+
+      <h3>nth-child(even):</h3>
+
+      <div class="parentContainer" id="parent3">
+        <div class="childElement">1
+      </div>
+        <div class="childElement">2 Even
+      </div>
+        <div class="childElement">3
+      </div>
+        <div class="childElement">4 Even
+      </div>
+        <div class="childElement">5
+      </div>
+        <div class="childElement">6 Even
+      </div>
+        <div class="childElement">7
+      </div>
+        <div class="childElement">8 Even
+      </div>
+        <div class="childElement">9
+      </div>
+        <div class="childElement">10 Even
+      </div>
+      </div>
+
+      <h3>nth-child(3n) - every third element:</h3>
+
+      <div class="parentContainer" id="parent4">
+        <div class="childElement">1
+      </div>
+        <div class="childElement">2
+      </div>
+        <div class="childElement">3
+      </div>
+        <div class="childElement">4
+      </div>
+        <div class="childElement">5
+      </div>
+        <div class="childElement">6
+      </div>
+        <div class="childElement">7
+      </div>
+        <div class="childElement">8
+      </div>
+        <div class="childElement">9
+      </div>
+        <div class="childElement">10
+      </div>
+      </div>
+
+      <h3>nth-child(3n+1) - every third element starting from 1:</h3>
+
+      <div class="parentContainer" id="parent5">
+        <div class="childElement">1
+      </div>
+        <div class="childElement">2
+      </div>
+        <div class="childElement">3
+      </div>
+        <div class="childElement">4
+      </div>
+        <div class="childElement">5
+      </div>
+        <div class="childElement">6
+      </div>
+        <div class="childElement">7
+      </div>
+        <div class="childElement">8
+      </div>
+        <div class="childElement">9
+      </div>
+        <div class="childElement">10
+      </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+
+      <p>This is by no means an exhaustive tutorial on pseudo-classes. There are many more available! These are perhaps the most widely used and are perfect to apply to your work and improve your CSS skills!</p>
+      <h3>By DomDev</h3>
+
+    </div>
+
   <section id="contact">
     <div class="overlay">
       <div class="containers">
