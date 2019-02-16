@@ -81,7 +81,7 @@ h3 {
   background-color: blue;
 }
 
-a.anchor1:visited .visited {
+.container a.anchor1:visited .visited {
   display: inline;
 }
 
