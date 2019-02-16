@@ -71,7 +71,7 @@ h3 {
   margin-left: 10%;
 }
 
-a:link {
+.container a:link {
   color: #333;
   background-color: gold;
 }
