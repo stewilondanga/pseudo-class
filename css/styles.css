@@ -63,12 +63,11 @@ h3 {
   float: none;
 }
 
-/*
-.hover, .active, .visited, .link{
+.hover, .active, .visited, .link {
   display: none;
 }
 
-.anchor1{
+/*.anchor1{
   margin-left: 10%;
 }
 
