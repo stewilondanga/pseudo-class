@@ -81,11 +81,11 @@ h3 {
   background-color: blue;
 }
 
-/*a.anchor1:visited .visited{
+a.anchor1:visited .visited {
   display: inline;
 }
 
-a:hover{
+/*a:hover{
   color: #fff;
   background-color: #FF0000;
 }
